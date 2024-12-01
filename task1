@@ -1,0 +1,32 @@
+/* codetech task 1*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Blogging Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="blog-container">
+    <h1>My Simple Blog</h1>
+    
+    <!-- Form for creating a blog post -->
+    <div class="blog-form">
+      <input type="text" id="post-title" placeholder="Enter post title" />
+      <textarea id="post-content" placeholder="Write your post here..."></textarea>
+      <button id="add-post-btn">Add Post</button>
+    </div>
+
+    <!-- List of blog posts -->
+    <div id="blog-posts">
+      <!-- Blog posts will be dynamically added here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
